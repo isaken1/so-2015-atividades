@@ -4,76 +4,62 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Isaac Kennedy Diniz Gomes
+:Matrícula: 20121144010702
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
-
+  Mostrar arquivos de texto
 
 cd
-  Descrição do comando
-
-
+  cd "NomeDoDiretorio"/"NomeDoDiretorio"/... - Mudar para...
+  cd - Voltar para diretório principal
+  cd ../../... - Voltar diretórios
+  
 cowsay
-  Descrição do comando
+  cowsay -f - Mostra a saída do comando cowsay (vaca) personalizado
 
-
-echo
-  Descrição do comando
-
+echo "Texto"
+  Imprime um texto no terminal
 
 env
-  Descrição do comando
-
+  Imprime lista de variáveis de ambiente
 
 exit
-  Descrição do comando
-
+  Fecha (termina) um processo ou aplicação
 
 help
-  Descrição do comando
-
+  Abre uma lista de comandos do SHell
 
 HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
-
+  Muda o formato em que a horário é exibido no comando history
 
 hostname
-  Descrição do comando
-
+  Mostra o nome da máquina
 
 ifconfig
-  Descrição do comando
-
+  Interfaces de redes
 
 last
-  Descrição do comando
-
+  Mostra os usuários logados
 
 lastb
   Descrição do comando
 
-
 ls
-  Descrição do comando
-
+  Lista os arquivos e diretóriosdo diretório atual
 
 mkdir
-  Descrição do comando
+  mkdir "NomeDoDiretório" - Cria um diretório
 
+nome="fulano"
+  Cria uma variável "nome" e atribui o valor "fulano"
 
-nome="fulano
-  Descrição do comando
-
-
-passswd
-  Descrição do comando
-
+passwd
+  Muda a senha
 
 pwd
-  Descrição do comando
+  Mostra o diretório atual
 
 
 set
@@ -114,8 +100,7 @@ who
 
 whoami
   Descrição do comando
-
-
-    write
-        Descrição do comando
+  
+write
+  Descrição do comando
 
