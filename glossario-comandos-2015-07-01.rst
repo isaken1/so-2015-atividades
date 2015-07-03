@@ -63,44 +63,47 @@ pwd
 
 
 set
-  Descrição do comando
+  É utilizada para determinar e/ou mudar variáveis de ambiente
+  set variavel=valor
 
 
 tree
-  Descrição do comando
-
+  lista os conteúdos de diretórios em formato de árvore
+  tree -argumentos diretorio...
+  tree -a imprimir todos (inclui ocultos) -d apenas diretorios 
+  
 
 tty
-  Descrição do comando
+  Imprime o nome do arquivo atrelado ao terminal vinculado à saída padrão
 
 
 vim
-  Descrição do comando
+  Abre um arquivo de text ou código usando o editor vim
 
 
 wait
-  Descrição do comando
-
+  Espera um determinado processo ou periodo de tempo terminar.
 
 wall
-  Descrição do comando
-
+  "write all" imprime uma mensagem para todos os usuários logados.
+  wall "mensagem ou arquivo" 
+  wall -t TIMEOUT define um timeout para a função ser executada
 
 which
-  Descrição do comando
-
+  Mostra o diretório de determinado comando bash
 
 while
-  Descrição do comando
-
+  Laço while normal em linguagens de programação
+  while [condiçao]; do
+    ...
+  done
 
 who
-  Descrição do comando
-
+  Imprime uma lista de usuarios logados na tela e suas informações.
 
 whoami
-  Descrição do comando
+  Imprime o usuario na tela
   
 write
-  Descrição do comando
-
+  Envia uma mensagem ou conteúdo de arquivo para determinado usuário logado
+  write nome_do_usuario 
